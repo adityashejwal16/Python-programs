@@ -1,0 +1,18 @@
+
+def DisplayDigits(No):
+    Digit = 0
+    while(No != 0):
+        Digit = No % 10
+        print(Digit)
+        No = No // 10      # // means remove the point ans
+
+
+def main():
+    No = 0
+
+    print("Enter Number : ")
+    No = int(input())
+    
+    DisplayDigits(No)
+
+main()
